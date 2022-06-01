@@ -1,0 +1,20 @@
+.main-nav {
+    padding-left: 20px;
+    height: 70px;
+}
+
+.nav-logo-text {
+    color: #00285F;
+}
+
+.main-menu {
+
+    display: flex;
+    font-size: 18px;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.nav-home {
+    font-weight: 700;
+}
