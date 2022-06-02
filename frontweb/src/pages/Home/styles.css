@@ -1,0 +1,48 @@
+.header-container {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #00285f;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.home-content-container h1 {
+  font-size: 22px;
+}
+
+.home-content-container p {
+  padding: 20px;
+}
+
+.home-image-container {
+  padding: 62px 28px 28px 35px;
+}
+
+.home-image-container svg {
+  width: 100%;
+}
+
+.button-container {
+  border: 1px solid red;
+  padding: 30px 28px 28px 30px;
+  
+  background-color: #ededed;
+  border-radius: 10px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-container p {
+    padding-top: 9px;
+    color: #585858;
+}
