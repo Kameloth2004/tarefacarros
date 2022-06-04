@@ -19,12 +19,12 @@ const Navbar = () => {
         </button>
         
         <div className="collapse navbar-collapse" id="carrostop-navbar">
-          <ul className="navbar-nav offset-md-10 main-menu">
+          <ul className="navbar-nav offset-md-8 main-menu">
             <li>
               <a href="link" className="nav-home">HOME</a>
             </li>
             <li>
-              <a href="link">CATÁLOGO</a>
+              <a href="link" className="nav-catalogo">CATÁLOGO</a>
             </li>
           </ul>
         </div>

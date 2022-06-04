@@ -18,11 +18,12 @@ const Home = () => {
           <HeaderImage />
         </div>
       </div>
-      
-      <div className="button-container">
-      <ButtonIcon />
-        <p>Comece agora a Navegar</p>
-        
+
+      <div className="button-card">
+        <div className="button-container">
+          <ButtonIcon />
+          <p>Comece agora a Navegar</p>
+        </div>
       </div>
     </>
   );

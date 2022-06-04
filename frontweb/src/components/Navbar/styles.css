@@ -1,20 +1,23 @@
 .main-nav {
-    padding-left: 20px;
-    min-height: 70px;
-    
+  
+  min-height: 70px;
+  width: 100%;
 }
 
 .nav-logo-text {
-    color: #00285F;
+  color: #00285f;
 }
 
 .main-menu {
     display: flex;
     font-size: 18px;
-    width: 160px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 400px;
+    
+    
 }
 
 .nav-home {
-    font-weight: 700;
+  font-weight: 700;
 }
+

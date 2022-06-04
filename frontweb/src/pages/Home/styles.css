@@ -5,10 +5,17 @@
   background-color: #00285f;
   font-size: 14px;
   color: #fff;
-  text-align: center;
   border-radius: 10px;
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 290px;
 }
 
 .home-content-container h1 {
@@ -27,22 +34,86 @@
   width: 100%;
 }
 
-.button-container {
-  border: 1px solid red;
-  padding: 30px 28px 28px 30px;
-  
-  background-color: #ededed;
+.button-card {
+  padding-top: 20px;
+  background-color: #EDEDED;
+  border: 1px solid orange;
   border-radius: 10px;
-  height: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  
 }
 
-.button-container p {
-    padding-top: 9px;
-    color: #585858;
+
+
+@media (min-width: 576px) {
+  .header-container {
+    text-align: center;
+    display: flex;
+  }
+
+  .home-content-container h1 {
+    font-size: 36px;
+    width: 500px;
+  }
+
+  .home-image-container svg {
+    width: 333px;
+    height: 199px;
+  }
+
+  .home-content-container p {
+    font-size: 18px;
+    width: 500px;
+  }
+
+  .button-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+
+  }
+  .button-container p {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+ 
+}
+
+@media (min-width: 768px){
+
+  .button-container {
+    width: 100%;
+    padding-left: 85px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .home-content-container{
+    padding-right: 50px;
+    text-align: left;
+    width: 560px;
+  }
+
+  .home-content-container p {
+    padding-left: 0px;
+  }
+
+  .home-image-container {
+    
+    padding-bottom: 83px;
+  }
 }
