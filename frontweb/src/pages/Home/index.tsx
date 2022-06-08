@@ -1,12 +1,12 @@
 import { ReactComponent as HeaderImage } from "assets/images/car-header.svg";
-import Navbar from "components/Navbar";
 import ButtonIcon from "components/ButtonIcon";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+      
       <div className="header-container">
         <div className="home-content-container">
           <h1>O carro perfeito para você</h1>
@@ -19,9 +19,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="button-card">
+      <div className="base-card button-card">
         <div className="button-container">
+          <Link to='/catalogo'>
           <ButtonIcon />
+          </Link>
+          
           <p>Comece agora a Navegar</p>
         </div>
       </div>

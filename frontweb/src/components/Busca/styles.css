@@ -1,0 +1,24 @@
+.busca-box-container {
+  width: 100%;
+  height: 86px;
+  background-color: #ededed;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+   
+  
+}
+
+.busca-box-container input {
+  width: 100%;
+  height: 40px;
+
+  border-radius: 7px 0px 0px 7px;
+  border-style: none;
+}
+
+.busca-box-container button {
+  border-radius: 0px 7px 7px 0px;
+  border-style: none;
+}
